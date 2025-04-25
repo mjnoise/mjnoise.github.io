@@ -78,6 +78,17 @@ a.btn-cta-primary:hover, .btn-cta-primary:hover {
   color: #fff;
 }
 
+.article-container, .article {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-img {
+  border-radius: 2rem;
+  height: 230px;
+  width: 350px;
+}
+
 a.btn-cta-secondary, .btn-cta-secondary {
   background: #479FC8;
   border: 1px solid #479FC8;
@@ -576,6 +587,18 @@ a.dotted-link:hover {
   color: #49515a;
 }
 
+ul.list-unstyled {
+  list-style-type: disc;     /* ensures the bullet is a dot */
+  padding-left: 1.5rem;      /* indentation for bullets */
+  line-height: 1.8rem;       /* increases spacing between list items */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+ul.list-unstyled li {
+  margin-bottom: 0.8rem;     /* adds space between individual items */
+}
+
 /* Credits */
 .credits ul li {
   margin-bottom: 10px;
@@ -815,9 +838,6 @@ body[data-theme="dark"] .text-muted {
   .header .btn {
     margin-top: 30px;
     float: none !important;
-  }
-  .project-image {
-    margin-bottom: 15px;
   }
 }
 
