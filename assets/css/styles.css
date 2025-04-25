@@ -78,15 +78,22 @@ a.btn-cta-primary:hover, .btn-cta-primary:hover {
   color: #fff;
 }
 
-.article-container, .article {
+.article-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
 }
 
-.project-img {
-  border-radius: 2rem;
-  height: 230px;
-  width: 350px;
+.video-frame {
+  width: 100%;
+  aspect-ratio: 16 / 9; /* Maintains proper video ratio */
+  border: none;
+  max-width: 100%;
+  height: auto;
 }
 
 a.btn-cta-secondary, .btn-cta-secondary {
@@ -587,7 +594,7 @@ a.dotted-link:hover {
   color: #49515a;
 }
 
-ul.list-unstyled {
+ul.list-work-exp {
   list-style-type: disc;     /* ensures the bullet is a dot */
   padding-left: 1.5rem;      /* indentation for bullets */
   line-height: 1.8rem;       /* increases spacing between list items */
@@ -595,7 +602,7 @@ ul.list-unstyled {
   margin-bottom: 1rem;
 }
 
-ul.list-unstyled li {
+ul.list-work-exp li {
   margin-bottom: 0.8rem;     /* adds space between individual items */
 }
 
